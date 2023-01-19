@@ -1,4 +1,4 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="^^3zIN?1w:Y0d*}J(0^b" x="20" y="20"></block><block type="device_forever" id="U|n102|k^r6%a,Vq!Fxy" x="225" y="20"></block><block type="device_button_event" id="Q=UKdJMZx0FVhH~ozqwe" x="70" y="252"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="vsFf?h;lU3tK?sT~|`Qn"><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="^^3zIN?1w:Y0d*}J(0^b" x="0" y="0"></block><block type="device_forever" id="U|n102|k^r6%a,Vq!Fxy" x="205" y="0"></block><block type="device_button_event" id="Q=UKdJMZx0FVhH~ozqwe" x="50" y="232"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="vsFf?h;lU3tK?sT~|`Qn"><field name="LEDS">`
         . # . # . 
         . # . # . 
         . # # # . 
@@ -88,19 +88,19 @@
         . # . # . 
         . # . # . 
         . # # # .
-        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_gesture_event" id="]GK+Kp+KE]V5UMwH=pQB" x="364" y="2775"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="playMelody" id="Oq9v?h4[#~{:e8@4k~Sl"><value name="melody"><shadow type="melody_editor" id="L`td38kGbLPCQ^6oY6u1"><field name="melody">"C D E D F F E D "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="`NkiN`BbXGirNfal_]Ro"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">120</field></shadow></value><next><block type="device_print_message" id=";nqGA!SW/p+*Z}Sj%G-x"><value name="text"><shadow type="text" id="fB^:h{!U0p}/w/Xfbt66"><field name="TEXT">Video games are interesting!</field></shadow></value><next><block type="device_show_leds" id="bGyW64[4O_caw%3SZe5%"><field name="LEDS">`
+        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_gesture_event" id="]GK+Kp+KE]V5UMwH=pQB" x="344" y="2755"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="playMelody" id="Oq9v?h4[#~{:e8@4k~Sl"><value name="melody"><shadow type="melody_editor" id="L`td38kGbLPCQ^6oY6u1"><field name="melody">"C D E D F F E D "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="`NkiN`BbXGirNfal_]Ro"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">120</field></shadow></value><next><block type="device_print_message" id=";nqGA!SW/p+*Z}Sj%G-x"><value name="text"><shadow type="text" id="fB^:h{!U0p}/w/Xfbt66"><field name="TEXT">Video games are interesting!</field></shadow></value><next><block type="device_show_leds" id="bGyW64[4O_caw%3SZe5%"><field name="LEDS">`
         # # # # # 
         # . . # # 
         # # . . # 
         # . # . # 
         . # . # .
-        `</field></block></next></block></next></block></statement></block><block type="device_button_event" id="$h^:4b;m9)CvrG]t:rD3" x="726" y="2825"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_show_leds" id="C4Klb4+=6aZ#R;W]2|9j"><field name="LEDS">`
+        `</field></block></next></block></next></block></statement></block><block type="device_button_event" id="$h^:4b;m9)CvrG]t:rD3" x="706" y="2805"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_show_leds" id="C4Klb4+=6aZ#R;W]2|9j"><field name="LEDS">`
         # # . # # 
         # # . # # 
         . . . . . 
         # . . . # 
         . # # # .
-        `</field></block></statement></block><block type="device_button_event" id="=|,Ad+hxRw:qz{@t;Q0k" x="447" y="3122"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="gIvw9U=H5CZpUwj*I7v]"><field name="LEDS">`
+        `</field></block></statement></block><block type="device_button_event" id="=|,Ad+hxRw:qz{@t;Q0k" x="427" y="3102"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="gIvw9U=H5CZpUwj*I7v]"><field name="LEDS">`
         . . . . . 
         . . . . . 
         . . . . . 
@@ -166,7 +166,7 @@
         . . . . . 
         . . . . . 
         . . . . .
-        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="input_logo_event" id="qHdx:q[~$J+tV:C@x?}s" x="272" y="5750"><field name="action">TouchButtonEvent.Pressed</field><statement name="HANDLER"><block type="device_show_leds" id="@??9e8{Una!H@*J4_4.3"><field name="LEDS">`
+        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="input_logo_event" id="qHdx:q[~$J+tV:C@x?}s" x="252" y="5730"><field name="action">TouchButtonEvent.Pressed</field><statement name="HANDLER"><block type="device_show_leds" id="@??9e8{Una!H@*J4_4.3"><field name="LEDS">`
         . # . # . 
         # # # # # 
         # # . # # 
