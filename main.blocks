@@ -1,4 +1,4 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="^^3zIN?1w:Y0d*}J(0^b" x="0" y="0"></block><block type="device_forever" id="U|n102|k^r6%a,Vq!Fxy" x="205" y="0"></block><block type="device_button_event" id="Q=UKdJMZx0FVhH~ozqwe" x="50" y="232"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="vsFf?h;lU3tK?sT~|`Qn"><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="^^3zIN?1w:Y0d*}J(0^b" x="0" y="0"><statement name="HANDLER"><block type="device_print_message" id="|UzsQC@Th.q=[iCuxbts"><value name="text"><shadow type="text" id="UwAhKE1Z5OUn{yjXTmQz"><field name="TEXT">Welcome to the fidget cube pseudocode!</field></shadow></value><next><block type="device_print_message" id="7*+[Rw%=+UgBOkQ/kOg%"><value name="text"><shadow type="text" id="wivx6Ucp};!,!l#d3,b6"><field name="TEXT">Press the various buttons to begin.</field></shadow></value></block></next></block></statement></block><block type="device_button_event" id="Q=UKdJMZx0FVhH~ozqwe" x="50" y="232"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="vsFf?h;lU3tK?sT~|`Qn"><field name="LEDS">`
         . # . # . 
         . # . # . 
         . # # # . 
@@ -88,7 +88,7 @@
         . # . # . 
         . # . # . 
         . # # # .
-        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_gesture_event" id="]GK+Kp+KE]V5UMwH=pQB" x="344" y="2755"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="playMelody" id="Oq9v?h4[#~{:e8@4k~Sl"><value name="melody"><shadow type="melody_editor" id="L`td38kGbLPCQ^6oY6u1"><field name="melody">"C D E D F F E D "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="`NkiN`BbXGirNfal_]Ro"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">120</field></shadow></value><next><block type="device_print_message" id=";nqGA!SW/p+*Z}Sj%G-x"><value name="text"><shadow type="text" id="fB^:h{!U0p}/w/Xfbt66"><field name="TEXT">Video games are interesting!</field></shadow></value><next><block type="device_show_leds" id="bGyW64[4O_caw%3SZe5%"><field name="LEDS">`
+        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_forever" id="U|n102|k^r6%a,Vq!Fxy" x="332" y="339"></block><block type="device_gesture_event" id="]GK+Kp+KE]V5UMwH=pQB" x="344" y="2755"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="playMelody" id="Oq9v?h4[#~{:e8@4k~Sl"><value name="melody"><shadow type="melody_editor" id="L`td38kGbLPCQ^6oY6u1"><field name="melody">"C D E D F F G D "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="`NkiN`BbXGirNfal_]Ro"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">120</field></shadow></value><next><block type="device_print_message" id=";nqGA!SW/p+*Z}Sj%G-x"><value name="text"><shadow type="text" id="fB^:h{!U0p}/w/Xfbt66"><field name="TEXT">Video games are interesting!</field></shadow></value><next><block type="device_show_leds" id="bGyW64[4O_caw%3SZe5%"><field name="LEDS">`
         # # # # # 
         # . . # # 
         # # . . # 
@@ -172,4 +172,34 @@
         # # . # # 
         # . . . # 
         # # # # #
-        `</field></block></statement></block></xml>
+        `</field><next><block type="device_print_message" id="Zv$a4/13^XLLtp/{j$$|"><value name="text"><shadow type="text" id="h^}i|^Lvvq36Jn@NxIdT"><field name="TEXT">What sport do you play?</field></shadow></value><next><block type="device_show_leds" id="z9aTsFhKb|5S;{GXhY@h"><field name="LEDS">`
+        . # # # . 
+        # . # . # 
+        # # . # # 
+        # . # . # 
+        . # # # .
+        `</field><next><block type="device_print_message" id="9[1-)$~nLU~31oB|Sc~G"><value name="text"><shadow type="text" id="W!i}QXDJW9n[Az?cIRFK"><field name="TEXT">Soccer</field></shadow></value><next><block type="device_show_leds" id="nY2dA[G9,,1Q9`H]BnT%"><field name="LEDS">`
+        . . . . . 
+        # # # # # 
+        # . . . # 
+        # . # . # 
+        . # # # .
+        `</field><next><block type="device_print_message" id="#21vwM;~P~8T+#}(+Gw]"><value name="text"><shadow type="text" id="[x!B,,EkoRpI||Z[:t@="><field name="TEXT">Basketball</field></shadow></value><next><block type="device_show_leds" id="hcyW,1B!MrZc8:I+J/YA"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . # . .
+        `</field><next><block type="device_print_message" id="U!TGY!~k49QJOQPq]!Ur"><value name="text"><shadow type="text" id="v@:^~s?+5dK$f$XwUNv."><field name="TEXT">Baseball</field></shadow></value><next><block type="device_show_leds" id="){(R^Rfc8Zo!TVdIPx6M"><field name="LEDS">`
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . . # . . 
+        . . # . .
+        `</field><next><block type="device_print_message" id="!1ciGMVxvpMiv^1eP;2@"><value name="text"><shadow type="text" id="J4%?XR?j{YT^Uj{?fN(w"><field name="TEXT">Tennis</field></shadow></value><next><block type="device_show_leds" id="UMb0Vo,-S+{2N..c=!cQ"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        # . # . # 
+        . # . # . 
+        # . # . #
+        `</field><next><block type="device_print_message" id="%lSFkZ@BxVpHwWj|,6)L"><value name="text"><shadow type="text" id="YgzXjpXjP?U24QTq6cND"><field name="TEXT">Swimming</field></shadow></value><next><block type="device_print_message" id="o!{LG=;W)omvC_-`S#r^"><value name="text"><shadow type="text" id="O6^StS)@J1S*OWj%3g1{"><field name="TEXT">Or etcetera...</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_gesture_event" id="1Y]:JzkA]98e*vlbF.!Z" x="-42" y="6531"><field name="NAME">Gesture.TiltRight</field><statement name="HANDLER"><block type="device_print_message" id="qT6rf[kd?/iO_eIfDxj5"><value name="text"><shadow type="text" id="C/BGaJ(()Q,Vve^UURyP"><field name="TEXT">Now that is a better view!</field></shadow></value></block></statement></block><block type="device_gesture_event" id="%Dq`4b_BP4{!8X@?/%S9" x="568" y="6531"><field name="NAME">Gesture.TiltLeft</field><statement name="HANDLER"><block type="device_print_message" id="Gg)LXy%%.~hhXdadz%)b"><value name="text"><shadow type="text" id="Uw7WzYqkPp2b*-8,NsqL"><field name="TEXT">Whoa!</field></shadow></value></block></statement></block></xml>
